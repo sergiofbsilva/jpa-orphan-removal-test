@@ -62,7 +62,7 @@ public class MovieCharactersTests {
         fresh.getCharacters().stream().map(Character::toString).forEach(logger::debug);
         logger.debug("end print movie {} characters", fresh.toString());
         
-        movieRepository.save(fresh);
+        movieRepository.saveAndFlush(fresh);
         Assert.assertEquals(0, characterRepository.count());
     }
 }
