@@ -1,4 +1,4 @@
-# jpa-orphan-removal-test [DATAJPA-1013](https://jira.spring.io/browse/DATAJPA-1013)
+# jpa-orphan-removal-test ~~[DATAJPA-1013](https://jira.spring.io/browse/DATAJPA-1013)~~[HHH-9571](https://hibernate.atlassian.net/browse/HHH-9571)
 
 # Reproduce
 
